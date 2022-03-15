@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * main - program prints 10 times the alphabet
- * on a new line using putchar only.
- *
- * Decription: Funtion prints the alphabet in 10 times
+ * print_alphabet_x10 - prints lower case alphabet 10 times.
+ * Decription: Funtion prints the lower case alphabet 10
+ * times, using _putchar twice
  */
 void print_alphabet_x10(void);
 {
