@@ -1,0 +1,20 @@
+#include "main.h"
+/**
+ * main - program prints 10 times the alphabet
+ * on a new line using putchar only.
+ *
+ * Decription: Funtion prints the alphabet in 10 times
+ */
+void print_alphabet_x10(void);
+{
+	int i,j;
+	
+	for (i=0; i < 10; i++)
+	{
+		for (j = 'a'; j <= 'z'; j++)
+		{
+			_putchar(j);
+		}
+		_putchar('\n');
+	}
+}
