@@ -6,7 +6,7 @@
  * Return: 1 if c a letter lowercase or uppercase
  * 0 otherwise
  */
-int _isalphabet(int c)
+int _isalpha(int c)
 {
 	if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
 	{
