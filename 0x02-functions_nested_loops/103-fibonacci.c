@@ -18,7 +18,7 @@ int main(void)
 		}
 		sum = t1 + t2;
 		t1 = t2;
-		y2 = sum;
+		t2 = sum;
 	}
 	printf("%ld\n", tsum);
 	return (0);
