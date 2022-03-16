@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * _isalpha - checks for alphabet character
  * @c: c is a letter lowercase or uppercase
