@@ -16,8 +16,9 @@ int main(void)
 	 * {
 	 * putchar(i);
 	 * }
-	 * i++; required under the putchar functin
+	 * i++; required before the closing braces
 	 */
+
 	printf("Infinite loop avoided! \\o/\n");
 	return (0);
 }
