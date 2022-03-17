@@ -16,8 +16,8 @@ int main(void)
 	while (i < 10)
 	{
 		/**
-		 *  putchar(i)
-		 *  i++ is needed
+		 *  putchar(i);
+		 *  i++; is required
 		 */
 	}
 
