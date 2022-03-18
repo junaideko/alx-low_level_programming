@@ -26,7 +26,7 @@ int main(void)
 			n = n / div;
 			if (n == 1)
 			{
-				print("%lu\n", maxFactor);
+				printf("%lu\n", maxFactor);
 				break;
 			}
 		}
