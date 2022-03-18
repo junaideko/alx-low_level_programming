@@ -4,7 +4,7 @@
  * main - program prints the largest prime factor of  the number;
  * given followed by a new line.
  *
- * Return - Always 0.
+ * Return: Always 0.
  */
 
 int main(void)
@@ -33,5 +33,4 @@ int main(void)
 		}
 	}
 	return (0);
-
 }
