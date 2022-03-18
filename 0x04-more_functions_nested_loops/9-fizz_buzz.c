@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - program prints number from 1 to 100, for multiple of 3 print Fizz,
- * for mutiples of 5 print Buzz, and fo both muiples of 3 and 5,
- * print FizzBuzz.
+ * main - program prints number from 1 to 100,
+ * for multiple of 3 print Fizz,
+ * for mutiples of 5 print Buzz, and for both muiples
+ * of 3 and 5, print FizzBuzz.
  *
  * Return: Always 0
  */
+
 int main(void)
 {
 	int i;
