@@ -8,7 +8,6 @@
  *
  * Return: Always 0
  */
-
 int main(void)
 {
 	int i;
@@ -26,6 +25,7 @@ int main(void)
 		if (i < 100)
 			printf(" ");
 	}
+
 	printf("\n");
 	return (0);
 }
