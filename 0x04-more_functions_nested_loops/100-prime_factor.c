@@ -4,8 +4,9 @@
  * main - program prints the largest prime factor of  the number;
  * given followed by a new line.
  *
- * Return - Always void
+ * Return - Always 0.
  */
+
 int main(void)
 {
 	long int n = 612852475143;
@@ -32,4 +33,5 @@ int main(void)
 		}
 	}
 	return (0);
+
 }
