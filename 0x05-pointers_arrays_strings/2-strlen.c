@@ -8,7 +8,7 @@
  */
 int _strlen(char *s)
 {
-	int l = 1, sum + 0;
+	int l = 1, sum = 0;
 
 	char temp = s[0];
 
