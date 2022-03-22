@@ -7,30 +7,22 @@
  */
 int _atoi(char *s)
 {
-	unsigned int counter = 0, size = 0, oi = 0, om = 1, on = 1, i;
+	int i, sign;
+	unsigned int num;
 
-	while (*(s + counter) != '\0')
+	sign = 1;
+	num = 0;
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (size > 0 && (*(s + counter) < '0' || *(s + counter) > '9'))
-			break;
-
-		if (*(s + counter) == '-')
-			on *= -1;
-
-		if (*(s + counter) >= '0' || *(s + counter) <= '9')
+		if (s[i] >= '0' && s[i] <= '9')
 		{
-			if (size > 0)
-				om *= 10;
-			size++;
+			num *= 10;
+			num += s[i] - '0';
 		}
-		counter++;
+		else if (num)
+			break;
+		else if (s[i] == '-')
+			sign *= -1;
 	}
-
-	for (i = counter - size; i < counter; i++)
-	{
-		oi = oi + ((*(s + i) - 48) * om);
-
-		om /= 10;
-	}
-	return (oi * on);
+	return (num * sign);
 }
