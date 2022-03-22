@@ -6,7 +6,7 @@
  *
  * Return: Always void.
  */
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	char rev = s[0];
 
