@@ -13,17 +13,17 @@ char *rot13(char *s)
 
 	int i = 0, j;
 
-	while (c[i] != '\0')
+	while (s[i] != '\0')
 	{
 		for (j = 0; a[j] != '\0'; j++)
 		{
-			if (c[i] == a[j])
+			if (s[i] == a[j])
 			{
-				c[i] = b[j];
+				s[i] = b[j];
 				break;
 			}
 		}
 		i++;
 	}
-	return (c);
+	return (s);
 }
