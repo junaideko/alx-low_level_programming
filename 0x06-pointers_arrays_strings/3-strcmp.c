@@ -20,7 +20,7 @@ int _strcmp(char *s1, char *s2)
 			a = s1[i];
 			b = s2[i];
 			result = a - b;
-			break'
+			break;
 		}
 		++i;
 	}
