@@ -2,14 +2,14 @@
 
 /**
  * _strcmp - function compares two string
- * @s1; pointer to string 1
- * @s2: pointer to string 2
+ * @s1; pointer to string one
+ * @s2: pointer to string two
  *
  * Return: an integer
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i, result = 0;
+	int i = 0, result = 0;
 
 	int a, b;
 
