@@ -15,3 +15,13 @@ Description
 6-cap_string.c: program capitalizes all words of a string.
 
 7-leet.c: program encodes a string into 1337.
+
+100-rot13.c: program encodes a string using rot13.
+
+101-print_number.c: program prints an integer.
+
+102-magic.c: program prints a[2] = 98, followed by a new line.
+
+103-infinite_add.c: program adds two numbers, n1 and n2 are the two numbers.
+
+104-print_buffer.c: program prints a buffer.
