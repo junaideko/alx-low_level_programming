@@ -3,8 +3,8 @@
 
 /**
  * infinite_add - adds two numbers
- * @n1: interger 1
- * @n2: integer 2
+ * @n1: interger one
+ * @n2: integer two
  * @r: buffer to store result
  * @size_r: buffer size
  * Return: pointer to result
