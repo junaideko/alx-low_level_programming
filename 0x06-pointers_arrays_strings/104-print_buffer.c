@@ -22,13 +22,13 @@ void print_buffer(char *b, int size)
 			for (k = j; k < j + 10; k++)
 			{
 				if (k % 2 == 0)
-					printf(" ");
+					printf(" ");/*single space*/
 				if (k < size)
 					printf("%.2x", *(b + k));
 				else
-					printf(" ");
+					printf("  ");/*double space*/
 			}
-			printf(" ");
+			printf(" ");/*single space*/
 			for (l = j; l < j + 10; l++)
 			{
 				if (l >= size)
