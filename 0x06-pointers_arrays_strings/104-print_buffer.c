@@ -7,6 +7,7 @@
  * @size: size of buffer to be printed
  * Return: always void
  */
+
 void print_buffer(char *b, int size)
 {
 	int l, k, j;
