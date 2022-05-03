@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
 	if (fd_1 == -1)
 		__exit(98, argv[1], 0);
 	while ((n_read = read(fd_1, buffer, 1024)) != 0)
-	
+
 		if (n_read == -1)
 			__exit(98, argv[1], 0);
 
