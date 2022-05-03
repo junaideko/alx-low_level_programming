@@ -8,7 +8,7 @@
 /* header file to open a file */
 #include<sys/types.h>
 #include<sys/stat.h>
-#include <fcntl.h> 
+#include <fcntl.h>
 
 /*to close a file*/
 #include <unistd.h>
