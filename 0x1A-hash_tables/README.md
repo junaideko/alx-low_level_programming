@@ -83,3 +83,9 @@ Order: array, list
 Prototype: void hash_table_delete(hash_table_t *ht);
 
 where ht is the hash table
+
+
+
+PS
+
+This is a project done during Full Stack Software Engineering studies at ALX_AFRICA. The objectives of the project is to teach ALX-SE students about Hash tables Data Structures, how do they work and how to use them, What is a collision and what are the main ways of dealing with collisions in the context of a hash table, advantages and drawbacks of using hash tables, the most common use cases of hash tables.
