@@ -1,1 +1,1 @@
-all: school
+all: school main.c school.c
